@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejashree B - My_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loader Section -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Tejashree B</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience & Certification</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Tejashree B</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                   I am a Computer Science Engineering graduate, currently working at Pole To Win as a Trainee Technical Representative. Passionate about development, I am enhancing my skills through a Full Stack Web Development course at Tap Academy.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/assets/Resume_P.pdf" class="btn btn-primary glass-effect" id="resume-btn">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>  
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-editor glass-effect">
+                    <div class="editor-header">
+                        <div class="editor-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <div class="editor-title">portfolio.js</div>
+                    </div>
+                    <div class="editor-content">
+                        <div class="line-numbers" id="line-numbers">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>10</span>
+                            <span>11</span>
+                            <span>12</span>
+                            <span>13</span>
+                            <span>14</span>
+                            <span>15</span>
+                            <span>16</span>
+                            <span>17</span>
+                            <span>18</span>
+                        </div>
+                        <div class="code-content">
+                            <pre id="code-typing"></pre>
+                            <span class="code-cursor">|</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#projects" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Here are some of my recent works</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: AI Portfolio -->
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="fas fa-briefcase project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">My Portfolio Website</h3>
+                        <p class="project-description">
+                           Built a responsive personal portfolio using HTML, CSS, and JavaScript. Showcases skills, education, and projects and many others with a clean, interactive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Heart trail animation-->
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="fa-solid fa-heart project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Heart Trail Animation</h3>
+                        <p class="project-description">
+                            Created a dynamic web animation that generates floating heart icons in response to mouse movements using HTML,CSS and Javascript.
+                        </p>
+                        <div class="project-tech">
+                           <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: Stone Paper Scissor Game -->
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="far fa-hand-rock project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Stone Paper Scissor Game</h3>
+                        <p class="project-description">
+                            Developed a browser-based Interactive Stone Paper Scissor .The game allows users to play against the computer, with real-time scoring and a dynamic interface.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Tic-tac-toe Game(react)-->
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="fab fa-react project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tic-tac-toe Game</h3>
+                        <p class="project-description">
+                            Built a Tic Tac Toe game using React with turn-based gameplay and automatic winner detection. Implemented state management using React Hooks and added a reset option for continuous play.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: Number Guessing Game -->
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="far fa-question-circle project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Number Guessing Game</h3>
+                        <p class="project-description">
+                            Built a Number Guessing Game in Java with random number generation, user input handling, and feedback-based guessing logic, Included feedback responses such as “Too High” or “Too Low” to guide the player.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--exp-->
+     <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="projects-grid">
+     <div class="project-card glass-effect">
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Pole To Win</h3>
+                        <p>Trainee Technical Representative (Feb,21 2024 - Present)</p>
+                        <p class="project-description">
+                           Responded to customer queries via email and live chat, ensuring timely and accurate resolutions.
+                            Stay focused on the quality by ensuring consistency and adherence to high standards.
+                        </p>
+
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">certification</h2>
+                <p class="section-subtitle">Full Stack Web development</p>
+            </div>
+            <div class="projects-grid">
+     <div class="project-card glass-effect">
+                    
+                    <div class="project-content">
+                        <h3 class="project-title">Tap Academy(Ongoing-2025)</h3>
+                        <p>  Mastering Core Java, Advanced Java (JDBC, JEE, Servlets), Spring, Hibernate, MySQL, and Frontend Technologies. Gained hands-on experience in OOP, Collections, Multithreading, Exception Handling, and Java 8 features (Lambda Expressions, Stream API). </p>
+
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I Know</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Backend Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-java skill-icon"></i>
+                            <span class="skill-name">Java</span>
+                        </div>
+
+                         <div class="skill-item glass-effect">
+                            <i class="fa-brands fa-python skill-icon"></i>
+                            <span class="skill-name">Python</span>
+                        </div>
+                         
+                        <div class="skill-item glass-effect">
+                            <i class="fa-brands fa-c skill-icon"></i>
+                            <span class="skill-name">C</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fa-brands fa-plug skill-icon"></i>
+                            <span class="skill-name">API</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-html5 skill-icon"></i>
+                            <span class="skill-name">HTML</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-css3-alt skill-icon"></i>
+                            <span class="skill-name">CSS</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-js-square skill-icon"></i>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+
+                        <div class="skill-item glass-effect">
+                            <i class="fa-brands fa-react skill-icon"></i>
+                            <span class="skill-name">React Js</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fa-brands fa-angular skill-icon"></i>
+                            <span class="skill-name">Angular</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="skill-category">
+                    <h3 class="category-title">Database & Frameworks</h3>
+                    <div class="skills-list">
+                        <div class="skill-item glass-effect">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-database skill-icon"></i>
+                            <span class="skill-name">JDBC</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-spring skill-icon"></i>
+                            <span class="skill-name">Spring</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-database skill-icon"></i>
+                            <span class="skill-name">Hibernate</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                  <div class="skill-category">
+                    <h3 class="category-title">DevOps & Methodology</h3>
+                    <div class="skills-list">
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-docker skill-icon"></i>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-kubernetes skill-icon"></i>
+                            <span class="skill-name">Kubernetes</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fab fa-agile-Scrum skill-icon"></i>
+                            <span class="skill-name">Agile & Scrum</span>
+                        </div>
+                         <div class="skill-item glass-effect">
+                            <i class="fab fa-ci-cd skill-icon"></i>
+                            <span class="skill-name">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Version Control</h3>
+                    <div class="skills-list">
+                        <div class="skill-item glass-effect">
+                            <i class="fa-brands fa-git-alt skill-icon"></i>
+                            <span class="skill-name">Git</span>
+                        </div>   
+                        
+                        <div class="skill-item glass-effect">
+                            <i class="fa-brands fa-github skill-icon"></i>
+                            <span class="skill-name">GitHub</span>
+                        </div>  
+                        
+
+                        <div class="skill-item glass-effect">
+                            <i class="fas fa-code skill-icon"></i>
+                            <span class="skill-name">VS Code</span>
+                        </div>
+                        <div class="skill-item glass-effect">
+                            <i class="fas fa-circle skill-icon"></i>
+                            <span class="skill-name">Eclipse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item glass-effect">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>tejashreeb56@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-effect">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>7975278860
+                        </div>
+                    </div>
+                    <div class="contact-item glass-effect">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>I'm open to both Remote and on-site</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form glass-effect">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary glass-effect">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="http://linkedin.com/in/tejashree-b-136b97220" class="social-link glass-effect">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/TejashreeB27ct"  class="social-link glass-effect">
+                    <i class="fab fa-github"></i>
+                </a>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Tejashree B. All rights reserved.</p>
+                <p>Full Stack Developer</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="constants.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
