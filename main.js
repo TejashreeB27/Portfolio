@@ -6,8 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     initTypingEffect();
     initCodeEditor();
     renderProjects();
+    renderDescription();
     renderExperience();
     renderSkills();
+    renderSocialLinks();
     renderContactInfo();
     initScrollEffects();
     initFormHandling();
@@ -164,10 +166,7 @@ function createProjectCard(project) {
                 ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
             </div>
             <div class="project-links">
-                <a href="${project.liveLink}" class="project-link" target="_blank">
-                    <i class="fas fa-external-link-alt"></i>
-                    Live Demo
-                </a>
+               
                 <a href="${project.githubLink}" class="project-link" target="_blank">
                     <i class="fab fa-github"></i>
                     GitHub
@@ -396,7 +395,7 @@ function showNotification(message, type = 'info') {
     notification.innerHTML = `
         <i class="fas fa-${getNotificationIcon(type)}"></i>
         <span>${message}</span>
-    `;
+    `;22
 
     // Add styles
     notification.style.cssText = `
