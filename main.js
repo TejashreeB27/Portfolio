@@ -6,10 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     initTypingEffect();
     initCodeEditor();
     renderProjects();
-    renderDescription();
     renderExperience();
     renderSkills();
-    renderSocialLinks();
     renderContactInfo();
     initScrollEffects();
     initFormHandling();
