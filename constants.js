@@ -3,7 +3,7 @@ const PERSONAL_INFO = {
     name: "Tejashree B ",
     title: "Full Stack Developer",
     description: "My name is Tejashree B,I am a Computer Science Engineering graduate, currently working at Pole To Win as a Trainee Technical Representative. Passionate about development, I am enhancing my skills through a Full Stack Web Development course at Tap Academy",
-    resumeLink: "./assets/Tejashree_Biruda_CV.pdf"
+    resumeLink: "./assets/CV_Tejashree_B.pdf"
 };
 
 // Typing Effect Text
@@ -70,12 +70,22 @@ const EXPERIENCE = [
         title: "Trainee Technical Representative",
         company: "pole to win",
         location: "Bangalore, India",
-        duration: "Feb,21 2024 - present",
-        description: "Responding to customer queries via email and live chat, ensuring timely and accurate resolutionsStay focused on the quality by ensuring consistency and adherence to high standards.",
+        duration: "Feb,2024 - present",
+        description: "Managed customer inquiries through live chat and email, ensuring timely and accurate resolutions while maintaining a positive client experience. Demonstrated strong communication, active listening, analytical thinking, and problem-solving skills to identify and address issues effectively. Escalated complex cases to the higher support team when required and maintained clear documentation for continuity. Participated in regular team discussions and calls to share updates, collaborate on solutions, and improve overall support efficiency",
         current: true
     },
     {
         id: 2,
+        type: "Internship", // job or education
+        title: "Web Developer",
+        company: "Saral Tech",
+        location: "Bangalore, India",
+        duration: "June 2024 - present",
+        description: "Currently working on the Saral Matrimony web platform, focusing on developing and improving user-facing features using HTML, CSS, JavaScript, and React. Contributing to creating responsive UI components, enhancing user experience, and ensuring consistent design standards. Actively collaborating with the team through code reviews, and sprint planning in an Agile environment. Using Git and GitHub for version control and collaborative development.",
+        current: true
+    },
+    {
+        id: 3,
         type: "Certification",
         title: "Full stack Web Development",
         company: "Tap Academy",

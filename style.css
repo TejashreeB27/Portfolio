@@ -17,6 +17,7 @@ body {
     background: linear-gradient(135deg, #1a0f3f 0%, #2b1056 25%, #43125f 75%, #4b1c73 100%);
     min-height: 100vh;
     position: relative;
+    background-color: #1a0f3f;
 }
 
 /* Plus Pattern Overlay */
@@ -51,6 +52,7 @@ body::before {
     border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
+    -webkit-backdrop-filter: blur(12px);
 }
 
 .glass-effect:hover {
@@ -247,7 +249,7 @@ body::before {
 .hero-description {
     font-size: 1.1rem;
     margin-bottom: 40px;
-    color: rgba(255, 255, 255, 0.8);
+    color:rgba(255, 255, 255, 0.8);
     line-height: 1.8;
 }
 
