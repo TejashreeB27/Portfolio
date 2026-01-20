@@ -1,6 +1,6 @@
 // Personal Information
 const PERSONAL_INFO = {
-    name: "Tejashree B ",
+     name: "Tejashree B ",
     title: "Full Stack Developer",
     description: "My name is Tejashree B,I am a Computer Science Engineering graduate, currently working at Pole To Win as a Trainee Technical Representative. Passionate about development, I am enhancing my skills through a Full Stack Web Development course at Tap Academy",
     resumeLink: "./assets/CV_Tejashree_B.pdf"
@@ -75,16 +75,6 @@ const EXPERIENCE = [
         current: true
     },
     {
-        id: 2,
-        type: "Internship", // job or education
-        title: "Web Developer",
-        company: "Saral Tech",
-        location: "Bangalore, India",
-        duration: "June 2024 - present",
-        description: "Currently working on the Saral Matrimony web platform, focusing on developing and improving user-facing features using HTML, CSS, JavaScript, and React. Contributing to creating responsive UI components, enhancing user experience, and ensuring consistent design standards. Actively collaborating with the team through code reviews, and sprint planning in an Agile environment. Using Git and GitHub for version control and collaborative development.",
-        current: true
-    },
-    {
         id: 3,
         type: "Certification",
         title: "Full stack Web Development",
@@ -106,11 +96,6 @@ const SKILLS = {
         {
             name: "Python",
             icon: "fab fa-python",
-            level: 80
-        },
-        {
-            name: "C Programming",
-            icon: "fas fa-c",
             level: 80
         },
          {
@@ -143,11 +128,7 @@ const SKILLS = {
             icon: "fab fa-react",
             level: 80
         },
-         {
-            name: "Angular",
-            icon: "fab fa-angular",
-            level: 80
-        }
+        
     ],
     database:[
          {
@@ -165,11 +146,7 @@ const SKILLS = {
             icon: "fas fa-leaf",
             level: 90
         },
-        {
-            name: "Hibernate",
-            icon: "fas fa-database",
-            level: 90
-        },
+       
     ],
     devOps: [
         {

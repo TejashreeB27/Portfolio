@@ -1,6 +1,6 @@
 // DOM Content Loaded Event
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize all functions
+    // Initialize or run all functions
     initLoader();
     initNavigation();
     initTypingEffect();
@@ -20,7 +20,7 @@ function initLoader() {
     const loader = document.getElementById('loader');
     
     setTimeout(() => {
-        loader.classList.add('hidden');
+        loader.classList.add('hidden');  //fade out loader
         // Remove loader from DOM after animation
         setTimeout(() => {
             loader.style.display = 'none';
@@ -50,8 +50,8 @@ function initNavigation() {
 
     // Smooth scrolling for navigation links
     navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
+        link.addEventListener('click', (e) => { 
+            e.preventDefault();                     //stops instant jump
             const targetId = link.getAttribute('href');
             const targetSection = document.querySelector(targetId);
             
@@ -70,7 +70,7 @@ function initTypingEffect() {
     const typingElement = document.getElementById('typing-text');
     if (!typingElement) return;
 
-    let textIndex = 0;
+    let textIndex = 0;   //track typing positions
     let charIndex = 0;
     let isDeleting = false;
 
@@ -149,7 +149,7 @@ function renderProjects() {
     });
 }
 
-function createProjectCard(project) {
+function createProjectCard(project) {                            // basic card for all proj
     const card = document.createElement('div');
     card.className = 'project-card glass-effect';
     
