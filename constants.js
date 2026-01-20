@@ -3,7 +3,7 @@ const PERSONAL_INFO = {
      name: "Tejashree B ",
     title: "Full Stack Developer",
     description: "My name is Tejashree B,I am a Computer Science Engineering graduate, currently working at Pole To Win as a Trainee Technical Representative. Passionate about development, I am enhancing my skills through a Full Stack Web Development course at Tap Academy",
-    resumeLink: "./assets/CV_Tejashree_B.pdf"
+    resumeLink: "./assets/B_Tejashree_Resume.pdf"
 };
 
 // Typing Effect Text
